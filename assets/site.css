@@ -50,6 +50,20 @@ body {
   margin-bottom:18px;
 }
 .section h2 { margin:0 0 12px; font-size:20px; }
+.section-heading {
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:12px;
+}
+.section-heading h2 { margin:0; }
+.section-heading a {
+  color:#2563eb;
+  font-size:13px;
+  font-weight:700;
+  white-space:nowrap;
+}
 .activity-heading {
   display:flex;
   align-items:baseline;
@@ -88,13 +102,15 @@ body {
 .activity-x-label { text-anchor:middle; }
 .activity-y-label { text-anchor:end; }
 .unit-list-details summary,
-.machine-list-details summary {
+.machine-list-details summary,
+.sueoki-suspects-section summary {
   cursor:pointer;
   font-size:20px;
   font-weight:700;
 }
 .unit-list-details[open] summary,
-.machine-list-details[open] summary { margin-bottom:12px; }
+.machine-list-details[open] summary,
+.sueoki-suspects-section[open] summary { margin-bottom:12px; }
 .unit-table, .metric-table, .history-table { width:100%; border-collapse:collapse; }
 .unit-table th, .unit-table td,
 .metric-table th, .metric-table td,
@@ -331,6 +347,7 @@ body {
   .summary-grid { grid-template-columns: repeat(5, minmax(120px,1fr)); overflow-x:auto; }
   .unit-header { flex-direction:column; }
   .unit-meta { justify-content:flex-start; }
+  .section-heading { align-items:flex-start; flex-direction:column; }
   .section { overflow-x:auto; }
   .unit-main { grid-template-columns:1fr; }
   .pscube-layout { grid-template-columns:1fr; }
