@@ -87,12 +87,14 @@ body {
 }
 .activity-x-label { text-anchor:middle; }
 .activity-y-label { text-anchor:end; }
-.unit-list-details summary {
+.unit-list-details summary,
+.machine-list-details summary {
   cursor:pointer;
   font-size:20px;
   font-weight:700;
 }
-.unit-list-details[open] summary { margin-bottom:12px; }
+.unit-list-details[open] summary,
+.machine-list-details[open] summary { margin-bottom:12px; }
 .unit-table, .metric-table, .history-table { width:100%; border-collapse:collapse; }
 .unit-table th, .unit-table td,
 .metric-table th, .metric-table td,
