@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-05-08",
+      "date_label": "2026/05/08",
+      "store_name": "某K.J.",
+      "href": "days/2026-05-08/",
+      "target_units": 151,
+      "total_out": 409965,
+      "total_diff": -16953,
+      "payout_rate": 95.86,
+      "positive_units": 39,
+      "win_rate": 25.8
+    },
+    {
       "date": "2026-05-07",
       "date_label": "2026/05/07",
       "store_name": "某K.J.",
@@ -23,18 +35,6 @@
       "payout_rate": 97.76,
       "positive_units": 52,
       "win_rate": 34.4
-    },
-    {
-      "date": "2026-05-05",
-      "date_label": "2026/05/05",
-      "store_name": "某K.J.",
-      "href": "days/2026-05-05/",
-      "target_units": 231,
-      "total_out": 0,
-      "total_diff": 0,
-      "payout_rate": 0,
-      "positive_units": 0,
-      "win_rate": 0.0
     }
   ]
 }

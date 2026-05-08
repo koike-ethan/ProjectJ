@@ -50,6 +50,43 @@ body {
   margin-bottom:18px;
 }
 .section h2 { margin:0 0 12px; font-size:20px; }
+.activity-heading {
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:6px;
+}
+.activity-heading h2 { margin:0; }
+.activity-heading p,
+.activity-note {
+  margin:0;
+  color:var(--muted);
+  font-size:13px;
+}
+.activity-chart-wrap {
+  margin-top:12px;
+  overflow-x:auto;
+}
+.activity-chart {
+  display:block;
+  width:100%;
+  min-width:720px;
+  height:auto;
+  border:1px solid var(--line);
+  border-radius:8px;
+  background:#fff;
+}
+.activity-area { fill:#2f80ed; opacity:.16; }
+.activity-line { fill:none; stroke:#2f80ed; stroke-width:3; stroke-linejoin:round; stroke-linecap:round; }
+.activity-point { fill:#fff; stroke:#2f80ed; stroke-width:2; }
+.activity-x-label,
+.activity-y-label {
+  fill:#697386;
+  font-size:12px;
+}
+.activity-x-label { text-anchor:middle; }
+.activity-y-label { text-anchor:end; }
 .unit-list-details summary {
   cursor:pointer;
   font-size:20px;
