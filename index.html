@@ -3,69 +3,37 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>台データ一覧</title>
-<link rel="stylesheet" href="assets/site.css">
-<script src="assets/site.js" defer></script>
+<title>店舗一覧</title>
+<style>
+:root{color-scheme:light}
+body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f5f6f8;color:#222}
+main{max-width:760px;margin:0 auto;padding:40px 20px 56px}
+h1{margin:0 0 12px;font-size:32px;line-height:1.2}
+p{margin:0 0 24px;color:#667085}
+ul{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+li a, li span{display:block;padding:16px 18px;border:1px solid #d9dee7;border-radius:10px;background:#fff;text-decoration:none;color:inherit;font-size:18px;font-weight:700}
+li small{display:block;margin-top:6px;color:#667085;font-size:13px;font-weight:400}
+.disabled{opacity:.65}
+.breadcrumbs{margin:0 0 16px;color:#667085;font-size:13px}
+.breadcrumbs ol{display:flex;flex-wrap:wrap;list-style:none;padding:0;margin:0;gap:0}
+.breadcrumbs li{display:flex;align-items:center}
+.breadcrumbs li+li::before{content:"/";margin:0 8px;color:#98a2b3}
+.breadcrumbs [aria-current="page"]{font-weight:700;color:#111827}
+</style>
 </head>
 <body>
-<main class="page index-page">
-  <header class="page-header">
-    <h1>台データ一覧</h1>
-    <p>対象: 20スロ / 日付から各日の詳細ページへ移動できます。</p>
-  </header>
-  <section class="index-table-wrap">
-    <table class="index-table">
-      <thead>
-        <tr><th>日付</th><th>据置疑い</th><th>対象台数</th><th>総IN枚数</th><th>総差枚</th><th>出玉率</th><th>勝率</th></tr>
-      </thead>
-      <tbody>
-<tr>
-  <td><a href="days/2026-05-10/">2026/05/10(日)</a></td>
-  <td>0</td>
-  <td>151</td>
-  <td>493,691</td>
-  <td>-10,470</td>
-  <td>97.88%</td>
-  <td>42/151 (27.8%)</td>
-</tr>
-<tr>
-  <td><a href="days/2026-05-09/">2026/05/09(土)</a></td>
-  <td>0</td>
-  <td>151</td>
-  <td>1,752,854</td>
-  <td>-20,338</td>
-  <td>98.84%</td>
-  <td>54/151 (35.8%)</td>
-</tr>
-<tr>
-  <td><a href="days/2026-05-08/">2026/05/08(金)</a></td>
-  <td>1</td>
-  <td>151</td>
-  <td>840,023</td>
-  <td>8,924</td>
-  <td>101.06%</td>
-  <td>50/151 (33.1%)</td>
-</tr>
-<tr>
-  <td><a href="days/2026-05-07/">2026/05/07(木)</a></td>
-  <td>0</td>
-  <td>151</td>
-  <td>860,554</td>
-  <td>-1,183</td>
-  <td>99.86%</td>
-  <td>44/151 (29.1%)</td>
-</tr>
-<tr>
-  <td><a href="days/2026-05-06/">2026/05/06(水)</a></td>
-  <td>1</td>
-  <td>151</td>
-  <td>800,320</td>
-  <td>-17,960</td>
-  <td>97.76%</td>
-  <td>52/151 (34.4%)</td>
-</tr></tbody>
-    </table>
-  </section>
+<main>
+  <nav class="breadcrumbs" aria-label="breadcrumb">
+    <ol>
+      <li><span aria-current="page">店舗一覧</span></li>
+    </ol>
+  </nav>
+  <h1>店舗一覧</h1>
+  <p>調査対象の店舗を選んでください。</p>
+  <ul>
+    <li><a href="kj/">某K.J.<small>現在の台データレポート</small></a></li>
+    <li><span class="disabled">某I.A.<small>リンクは後で設定します</small></span></li>
+  </ul>
 </main>
 </body>
 </html>
