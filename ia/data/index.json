@@ -5,14 +5,14 @@
       "date_label": "2026/05/11(月)",
       "store_name": "某I.A.",
       "href": "days/2026-05-11/",
-      "sueoki_suspects": 0,
-      "target_units": 0,
-      "total_activity_minutes": 0,
-      "total_activity": "0時間00分",
-      "total_diff": 0,
-      "positive_units": 0,
-      "win_denominator": 0,
-      "win_rate": 0
+      "sueoki_suspects": 10,
+      "target_units": 395,
+      "total_activity_minutes": 191335,
+      "total_activity": "3188時間55分",
+      "total_diff": 100067,
+      "positive_units": 153,
+      "win_denominator": 393,
+      "win_rate": 38.9
     },
     {
       "date": "2026-05-10",
