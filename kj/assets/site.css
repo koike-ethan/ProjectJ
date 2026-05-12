@@ -428,3 +428,10 @@ body {
 .machine-replacement-history th {
   background:#f6f6f6;
 }
+.history-more {
+  margin-top:12px;
+}
+.history-more summary {
+  cursor:pointer;
+  font-weight:700;
+}
