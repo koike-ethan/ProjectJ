@@ -413,3 +413,18 @@ body {
 .index-table td:not(:first-child) {
   text-align:right;
 }
+.machine-replacement-history {
+  margin-top:2rem;
+}
+.machine-replacement-history table {
+  width:100%;
+  border-collapse:collapse;
+}
+.machine-replacement-history th,
+.machine-replacement-history td {
+  border:1px solid #ddd;
+  padding:.5rem;
+}
+.machine-replacement-history th {
+  background:#f6f6f6;
+}
