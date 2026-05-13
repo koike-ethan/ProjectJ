@@ -413,6 +413,52 @@ body {
 .index-table td:not(:first-child) {
   text-align:right;
 }
+.daily-trend-section {
+  margin-top:2rem;
+}
+.daily-trend-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:14px;
+}
+.daily-trend-chart {
+  border:1px solid var(--line);
+  background:var(--card);
+  padding:12px;
+}
+.daily-trend-chart h3 {
+  margin:0 0 8px;
+  font-size:15px;
+}
+.daily-trend-chart svg {
+  width:100%;
+  height:auto;
+  display:block;
+}
+.daily-trend-axis {
+  stroke:#d7dce3;
+  stroke-width:1;
+}
+.daily-trend-line {
+  fill:none;
+  stroke:#2563eb;
+  stroke-width:3;
+  stroke-linejoin:round;
+  stroke-linecap:round;
+}
+.daily-trend-area {
+  fill:#2563eb;
+  opacity:.12;
+}
+.daily-trend-point {
+  fill:#fff;
+  stroke:#2563eb;
+  stroke-width:2;
+}
+.daily-trend-label {
+  fill:#667085;
+  font-size:11px;
+}
 .machine-replacement-history {
   margin-top:2rem;
 }
