@@ -439,6 +439,11 @@ body {
   stroke:#d7dce3;
   stroke-width:1;
 }
+.daily-trend-reference-line {
+  stroke:#94a3b8;
+  stroke-width:1;
+  stroke-dasharray:4 3;
+}
 .daily-trend-line {
   fill:none;
   stroke:#2563eb;
