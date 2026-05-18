@@ -1,6 +1,20 @@
 {
   "entries": [
     {
+      "date": "2026-05-18",
+      "date_label": "2026/05/18(月)",
+      "store_name": "某I.A.",
+      "href": "days/2026-05-18/",
+      "sueoki_suspects": 1,
+      "target_units": 395,
+      "total_activity_minutes": 147654,
+      "total_activity": "2460時間54分",
+      "total_diff": -54645,
+      "positive_units": 159,
+      "win_denominator": 395,
+      "win_rate": 40.3
+    },
+    {
       "date": "2026-05-17",
       "date_label": "2026/05/17(日)",
       "store_name": "某I.A.",
