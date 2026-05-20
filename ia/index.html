@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>台データ履歴一覧</title>
-<link rel="stylesheet" href="assets/site.css?v=1779203285813435600">
-<script src="assets/site.js?v=1779203285813435600" defer></script>
+<link rel="stylesheet" href="assets/site.css?v=1779285301896958000">
+<script src="assets/site.js?v=1779285301896958000" defer></script>
 </head>
 <body>
 <main class="page index-page">
@@ -19,12 +19,21 @@
     <h1>台データ履歴一覧</h1>
     <p>過去20日分のデータです。日付から詳細レポートへ移動できます。</p>
   </header>
+
   <section class="index-table-wrap">
     <table class="index-table">
       <thead>
         <tr><th>日付</th><th>据置疑い</th><th>対象台数</th><th>総推定稼働時間</th><th>総差枚</th><th>勝率</th></tr>
       </thead>
       <tbody>
+<tr>
+  <td><a href="days/2026-05-20/">2026/05/20(水)</a></td>
+  <td>3</td>
+  <td>395</td>
+  <td>3453時間11分</td>
+  <td>63,427</td>
+  <td>167/394 (42.4%)</td>
+</tr>
 <tr>
   <td><a href="days/2026-05-19/">2026/05/19(火)</a></td>
   <td>2</td>
@@ -96,7 +105,18 @@
   <td>2739時間39分</td>
   <td>100,067</td>
   <td>153/393 (38.9%)</td>
-</tr>
+</tr></tbody>
+    </table>
+  </section>
+
+  <details class="history-more">
+    <summary>続きを表示</summary>
+    <div class="index-table-wrap">
+      <table class="index-table">
+        <thead>
+          <tr><th>日付</th><th>据置疑い</th><th>対象台数</th><th>総推定稼働時間</th><th>総差枚</th><th>勝率</th></tr>
+        </thead>
+        <tbody>
 <tr>
   <td><a href="days/2026-05-10/">2026/05/10(日)</a></td>
   <td>0</td>
@@ -105,9 +125,9 @@
   <td>-32,805</td>
   <td>156/394 (39.6%)</td>
 </tr></tbody>
-    </table>
-  </section>
-
+      </table>
+    </div>
+  </details>
 
   <section class="machine-replacement-history">
     <h2>新台入れ替え履歴</h2>

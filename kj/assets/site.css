@@ -586,3 +586,28 @@ body {
   cursor:pointer;
   font-weight:700;
 }
+.index-consistency-alert {
+  margin:16px 0;
+  border:1px solid #dc2626;
+  border-radius:8px;
+  background:#fff1f2;
+  color:#991b1b;
+  padding:12px 14px;
+}
+.index-consistency-alert h2 {
+  margin:0 0 8px;
+  font-size:16px;
+}
+.index-consistency-alert p {
+  margin:0 0 8px;
+  color:#991b1b;
+}
+.index-consistency-alert ul {
+  margin:0;
+  padding-left:1.2rem;
+}
+.index-row-mismatch td,
+.index-row-mismatch a {
+  color:#b91c1c;
+  font-weight:700;
+}
