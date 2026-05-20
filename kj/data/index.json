@@ -18,11 +18,11 @@
       "date_label": "2026/05/19(火)",
       "store_name": "某K.J.",
       "href": "days/2026-05-19/",
-      "sueoki_suspects": 1,
+      "sueoki_suspects": 0,
       "target_units": 151,
-      "total_out": 775650,
-      "total_diff": -22325,
-      "payout_rate": 97.12,
+      "total_out": 786603,
+      "total_diff": -24410,
+      "payout_rate": 96.9,
       "positive_units": 47,
       "win_rate": 31.1
     },
@@ -33,11 +33,11 @@
       "href": "days/2026-05-18/",
       "sueoki_suspects": 0,
       "target_units": 151,
-      "total_out": 753122,
-      "total_diff": -45993,
-      "payout_rate": 93.89,
-      "positive_units": 42,
-      "win_rate": 27.8
+      "total_out": 760442,
+      "total_diff": -45753,
+      "payout_rate": 93.98,
+      "positive_units": 43,
+      "win_rate": 28.5
     },
     {
       "date": "2026-05-17",
