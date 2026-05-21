@@ -136,6 +136,38 @@ body {
 }
 .activity-x-label { text-anchor:middle; }
 .activity-y-label { text-anchor:end; }
+.unit-diff-chart-wrap {
+  margin-top:12px;
+  overflow:hidden;
+}
+.unit-diff-chart {
+  display:block;
+  width:100%;
+  max-width:100%;
+  height:auto;
+  border:1px solid var(--line);
+  border-radius:8px;
+  background:#fff;
+}
+.unit-diff-axis,
+.unit-diff-grid {
+  stroke:#d7dce3;
+  stroke-width:1;
+}
+.unit-diff-grid { opacity:.75; }
+.unit-diff-zero-line {
+  stroke:#475467;
+  stroke-width:1.5;
+}
+.unit-diff-bar-positive { fill:#16a34a; }
+.unit-diff-bar-negative { fill:#dc2626; }
+.unit-diff-bar-missing { fill:#98a2b3; opacity:.75; }
+.unit-diff-label {
+  fill:#697386;
+  font-size:12px;
+}
+.unit-diff-y-label { text-anchor:end; }
+.unit-diff-x-label { text-anchor:middle; }
 .unit-list-details summary,
 .machine-list-details summary,
 .sueoki-suspects-section summary {
