@@ -535,6 +535,19 @@ body {
   grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
   gap:14px;
 }
+.lovejo-histogram-details {
+  margin-top:14px;
+}
+.lovejo-histogram-details summary {
+  cursor:pointer;
+  font-weight:700;
+  border:1px solid var(--line);
+  background:var(--card);
+  padding:12px;
+}
+.lovejo-histogram-details[open] summary {
+  margin-bottom:14px;
+}
 .lovejo-histogram {
   border:1px solid var(--line);
   background:var(--card);
