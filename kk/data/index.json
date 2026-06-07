@@ -1,6 +1,19 @@
 {
   "entries": [
     {
+      "date": "2026-06-07",
+      "date_label": "2026/06/07(日)",
+      "store_name": "某K.K.",
+      "href": "days/2026-06-07/",
+      "sueoki_suspects": 0,
+      "target_units": 118,
+      "total_out": 520598,
+      "total_diff": -2530,
+      "payout_rate": 99.51,
+      "positive_units": 31,
+      "win_rate": 26.3
+    },
+    {
       "date": "2026-06-06",
       "date_label": "2026/06/06(土)",
       "store_name": "某K.K.",
