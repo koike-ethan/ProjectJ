@@ -1,6 +1,32 @@
 {
   "entries": [
     {
+      "date": "2026-09-02",
+      "date_label": "2026/09/02(水)",
+      "store_name": "某K.J.",
+      "href": "days/2026-09-02/",
+      "sueoki_suspects": 0,
+      "target_units": 151,
+      "total_out": 771681,
+      "total_diff": -25632,
+      "payout_rate": 96.68,
+      "positive_units": 43,
+      "win_rate": 28.5
+    },
+    {
+      "date": "2026-09-01",
+      "date_label": "2026/09/01(火)",
+      "store_name": "某K.J.",
+      "href": "days/2026-09-01/",
+      "sueoki_suspects": 1,
+      "target_units": 151,
+      "total_out": 723124,
+      "total_diff": -1990,
+      "payout_rate": 99.72,
+      "positive_units": 47,
+      "win_rate": 31.1
+    },
+    {
       "date": "2026-08-31",
       "date_label": "2026/08/31(月)",
       "store_name": "某K.J.",
@@ -20,11 +46,11 @@
       "href": "days/2026-08-30/",
       "sueoki_suspects": 0,
       "target_units": 151,
-      "total_out": 714709,
-      "total_diff": -24326,
-      "payout_rate": 96.6,
-      "positive_units": 40,
-      "win_rate": 26.5
+      "total_out": 841398,
+      "total_diff": -21144,
+      "payout_rate": 97.49,
+      "positive_units": 46,
+      "win_rate": 30.5
     },
     {
       "date": "2026-08-29",
@@ -33,11 +59,11 @@
       "href": "days/2026-08-29/",
       "sueoki_suspects": 0,
       "target_units": 151,
-      "total_out": 913224,
-      "total_diff": -14412,
-      "payout_rate": 98.42,
-      "positive_units": 41,
-      "win_rate": 27.2
+      "total_out": 1047209,
+      "total_diff": -24652,
+      "payout_rate": 97.65,
+      "positive_units": 46,
+      "win_rate": 30.5
     },
     {
       "date": "2026-08-28",
