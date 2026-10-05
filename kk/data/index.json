@@ -1,17 +1,30 @@
 {
   "entries": [
     {
+      "date": "2026-10-05",
+      "date_label": "2026/10/05(月)",
+      "store_name": "某K.K.",
+      "href": "days/2026-10-05/",
+      "sueoki_suspects": 0,
+      "target_units": 118,
+      "total_out": 520267,
+      "total_diff": -6696,
+      "payout_rate": 98.71,
+      "positive_units": 34,
+      "win_rate": 28.8
+    },
+    {
       "date": "2026-10-04",
       "date_label": "2026/10/04(日)",
       "store_name": "某K.K.",
       "href": "days/2026-10-04/",
       "sueoki_suspects": 0,
       "target_units": 118,
-      "total_out": 320765,
-      "total_diff": -10538,
-      "payout_rate": 96.71,
-      "positive_units": 27,
-      "win_rate": 22.9
+      "total_out": 327290,
+      "total_diff": -10449,
+      "payout_rate": 96.81,
+      "positive_units": 28,
+      "win_rate": 23.7
     },
     {
       "date": "2026-10-03",
